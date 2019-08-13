@@ -1,0 +1,142 @@
+
+@keyframes header_anim {
+    from {
+      transform: translateX(-120%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  header{
+      position: fixed;
+      z-index: 999;
+      width: 100%;
+      height: 30px;
+  }
+  
+  h1 {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6em;
+    font-weight: 700;
+  }
+  
+  h2 {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+  }
+  h3{
+      font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    
+  
+  }
+  h4{
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: 700;}
+
+  
+  
+  p {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+  }
+  
+  .main_page {
+    display: flex;
+    min-height: 100vh;
+    padding:82px 50px 8px;
+    background-color: #02f;
+    background-image: url("/progect_for_portfolio/img/bg.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .main_page__title {
+    transform: translateX(0);
+    animation-name: header_anim;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-transform: uppercase;
+    color: #fff;
+    align-self: center;
+  }
+  
+  .article {
+    position: relative;
+    min-height: 55em;
+    padding: 8px 50px;
+  }
+  
+  .article_whitebg::before,
+  .article_bluebg::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content:'';
+  }
+  
+  .article_whitebg::before {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  .article_bluebg::before {
+    background: rgba(0, 34, 255, 0.5);
+  }
+  
+  .article_first,
+  .article_second {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .article_first {
+    background-image: url("/progect_for_portfolio/img/first_bg.jpg");
+  }
+  
+  
+  
+
+  
+  .black {
+    color: #000;
+  }
+  
+  .white {
+    color: #fff;
+  }
+  .slick-prev {
+    left: 0px;
+   
+}
+
+
+#Портфолио:before {
+	display: block;
+	content: "";
+	height: 85px;
+	margin:  -85px 0 0;
+} 
+#Контакты:before {
+	display: block;
+	content: "";
+	height :85px;
+	margin: -85px 0 0;
+} 
