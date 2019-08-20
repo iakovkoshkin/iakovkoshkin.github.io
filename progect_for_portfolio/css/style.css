@@ -153,9 +153,9 @@
    transform: scale(-1, -1);
    position: absolute;
    background: url(/progect_for_portfolio/img/arrow-right.svg) center no-repeat;
-   background-size: 100%;
-   width: 40px;
-   height: 40px;
+   background-size: 70%;
+   width: 50px;
+   height: 50px;
    border:none;
    left: 0;
  
