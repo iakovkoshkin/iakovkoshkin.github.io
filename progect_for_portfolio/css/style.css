@@ -137,8 +137,33 @@
   .white {
     color: #fff;
   }
-  .slick-prev {
-    left: 0px;
+  .prev{
+  z-index: 2;
+  top:50%;
+   transform:scaleY(-50%);
+   transform: scale(-1, -1);
+   position: absolute;
+   background: url(/progect_for_portfolio/img/arrow-right.svg) center no-repeat;
+   background-size: 100%;
+   width: 30px;
+   height: 30px;
+   border:none;
+   left: 0;
+ 
+
+ }
+  .next{
+   z-index: 2;
+    top:50%;
+   transform:scaleY(-50%);
+   position: absolute;
+   background: url(/progect_for_portfolio/img/arrow-right.svg) center no-repeat;
+   background-size: 100%;
+   width: 30px;
+   height: 30px;
+   border:none;
+   right: 0;
+  }
    
 }
 
