@@ -54,6 +54,21 @@
     font-size: 2em;
     font-weight: 300;
   }
+.brand{
+    
+    line-height: 0.1 ;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+
+  }
+  .my_name{
+    margin-top: -20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.0em;
+    font-weight: 300;
+
+  }
   
   .main_page {
     display: flex;
