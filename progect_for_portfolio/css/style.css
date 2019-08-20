@@ -112,7 +112,7 @@
   }
   
   .article_bluebg::before {
-    background: rgba(0, 34, 255, 0.5);
+    background:#02f;
   }
   
   .article_first,
