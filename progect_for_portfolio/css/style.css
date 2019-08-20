@@ -1,4 +1,5 @@
 
+
 @keyframes header_anim {
     from {
       transform: translateX(-120%);
@@ -12,6 +13,7 @@
   body {
     margin: 0;
     padding: 0;
+    
   }
   header{
       position: fixed;
@@ -37,9 +39,11 @@
       font-family: "Montserrat", sans-serif;
     font-size: 2em;
     font-weight: 700;
-    
+    }
   
-  }
+   
+
+  
   h4{
     position: relative;
     font-family: "Montserrat", sans-serif;
@@ -54,7 +58,7 @@
     font-size: 2em;
     font-weight: 300;
   }
-.brand{
+  .brand{
     
     line-height: 0.1 ;
     font-family: "Montserrat", sans-serif;
@@ -69,6 +73,7 @@
     font-weight: 300;
 
   }
+  
   
   .main_page {
     display: flex;
@@ -113,6 +118,7 @@
   
   .article_bluebg::before {
     background:#02f;
+   
   }
   
   .article_first,
@@ -136,8 +142,11 @@
   
   .white {
     color: #fff;
+    
   }
-  .prev{
+
+   
+ .prev{
   z-index: 2;
   top:50%;
    transform:scaleY(-50%);
@@ -164,8 +173,9 @@
    border:none;
    right: 0;
   }
-   
-}
+  
+  
+
 
 
 #Портфолио:before {
